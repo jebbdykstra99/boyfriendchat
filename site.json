@@ -1,0 +1,682 @@
+{
+  "siteId": "boyfriend",
+  "redditSr": "boyfriendchat",
+  "name": "boyfriendchat",
+  "domain": "boyfriendchat.com",
+  "tagline": "His stories. Your table.",
+  "composePlaceholder": "What happened at the table?",
+  "earlyWelcome": true,
+  "dms": true,
+  "preview": true,
+  "robots": "noindex,nofollow",
+  "emptyState": "Preview room \u2014 noindex until GTM lifts. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift links are curated retailer examples only.",
+  "theme": {
+    "bg": "#1a1014",
+    "surface": "#241820",
+    "nav-bg": "#0e080c",
+    "nav-text": "#c4a0b0",
+    "nav-hover": "#f5e0ea",
+    "nav-active": "#f5e0ea",
+    "text": "#f5e0ea",
+    "text-muted": "#c4a0b0",
+    "text-light": "#8a6878",
+    "accent": "#e85a7a",
+    "accent-dark": "#c43d5c",
+    "teal": "#7a5c8a",
+    "silver": "#d4b8c4",
+    "border": "#3a2830",
+    "avatarColors": [
+      "#e85a7a",
+      "#c43d5c",
+      "#7a5c8a",
+      "#d4a0b0",
+      "#4a2030",
+      "#f0c0d0"
+    ]
+  },
+  "trends": [
+    {
+      "tag": "Wins",
+      "headline": "He remembered the small thing",
+      "snippet": "Story energy \u2014 not a funnel.",
+      "meta": "Nest: wins"
+    },
+    {
+      "tag": "Gifts",
+      "headline": "Curated retailer examples only",
+      "snippet": "Outbound stubs \u2014 labeled curated.",
+      "meta": "Nest: gifts"
+    },
+    {
+      "tag": "Dates",
+      "headline": "Low-stakes taco walk classic",
+      "snippet": "Dummy date lore.",
+      "meta": "Nest: dates"
+    },
+    {
+      "tag": "Fights",
+      "headline": "Tone vs content, again",
+      "snippet": "Peer stories \u2014 no therapy claims.",
+      "meta": "Nest: fights"
+    },
+    {
+      "tag": "LD",
+      "headline": "Airport pickup ritual",
+      "snippet": "Long-distance nest stub.",
+      "meta": "Nest: long-distance"
+    },
+    {
+      "tag": "Family",
+      "headline": "Dessert as a safe play",
+      "snippet": "Meeting-family energy.",
+      "meta": "Nest: meeting-family"
+    }
+  ],
+  "places": [
+    {
+      "tag": "Topic",
+      "title": "Wins",
+      "snippet": "Good nights and receipts."
+    },
+    {
+      "tag": "Topic",
+      "title": "Gifts",
+      "snippet": "Curated buy examples only."
+    },
+    {
+      "tag": "Topic",
+      "title": "Dates",
+      "snippet": "Plans, fails, second tries."
+    },
+    {
+      "tag": "Topic",
+      "title": "Long Distance",
+      "snippet": "Time zones and visits."
+    }
+  ],
+  "topics": [
+    {
+      "tag": "Stories",
+      "title": "Peer stories only",
+      "snippet": "No medical or therapy claims."
+    },
+    {
+      "tag": "Gifts",
+      "title": "Curated outbound",
+      "snippet": "Well-known retailers as examples."
+    },
+    {
+      "tag": "Intensity",
+      "title": "High-interest table",
+      "snippet": "Dating-app-in-disguise lock \u2014 not a funnel."
+    },
+    {
+      "tag": "Boundaries",
+      "title": "Breakups nest",
+      "snippet": "Peer endings \u2014 not counseling."
+    }
+  ],
+  "stories": {
+    "enabled": true,
+    "maxSeconds": 15,
+    "maxBytes": 8000000
+  },
+  "seedNote": "sample \u2014 not mixed into the live feed",
+  "seed": [
+    {
+      "id": "p1",
+      "name": "Win Recap",
+      "handle": "winrecap",
+      "text": "He locked the reservation without being asked. Wins nest. Story stub \u2014 not advice.",
+      "hours": 2,
+      "likes": 140,
+      "replies": 22,
+      "followed": true,
+      "nestSlug": "wins"
+    },
+    {
+      "id": "p2",
+      "name": "Gift Scout",
+      "handle": "giftscout",
+      "text": "Headphones from a curated retailer example. Gifts nest \u2014 outbound labeled curated.",
+      "hours": 4,
+      "likes": 91,
+      "replies": 15,
+      "followed": true,
+      "nestSlug": "gifts"
+    },
+    {
+      "id": "p3",
+      "name": "Taco Walk",
+      "handle": "tacowalk",
+      "text": "Low-stakes date that worked. Dates nest stub.",
+      "hours": 6,
+      "likes": 78,
+      "replies": 10,
+      "followed": false,
+      "nestSlug": "dates"
+    },
+    {
+      "id": "p4",
+      "name": "Tone Check",
+      "handle": "tonecheck",
+      "text": "Fought about tone again. Fights nest \u2014 peer story only.",
+      "hours": 9,
+      "likes": 66,
+      "replies": 19,
+      "followed": true,
+      "nestSlug": "fights"
+    },
+    {
+      "id": "p5",
+      "name": "Gate Wait",
+      "handle": "gatewait",
+      "text": "Airport pickup after three months. Long-distance nest.",
+      "hours": 12,
+      "likes": 112,
+      "replies": 17,
+      "followed": true,
+      "nestSlug": "long-distance"
+    },
+    {
+      "id": "p6",
+      "name": "Dessert Save",
+      "handle": "dessertsave",
+      "text": "Brought pie to meet the parents. Meeting-family nest stub.",
+      "hours": 16,
+      "likes": 88,
+      "replies": 11,
+      "followed": false,
+      "nestSlug": "meeting-family"
+    }
+  ],
+  "notifs": [
+    {
+      "id": "n1",
+      "text": "@winrecap liked your wins take.",
+      "time": "1h",
+      "unread": true
+    },
+    {
+      "id": "n2",
+      "text": "@giftscout mentioned you in gifts.",
+      "time": "3h",
+      "unread": true
+    },
+    {
+      "id": "n3",
+      "text": "@tacowalk started following you. Dummy follow.",
+      "time": "Yesterday",
+      "unread": true
+    }
+  ],
+  "threads": [
+    {
+      "id": "t1",
+      "name": "Gift Scout",
+      "handle": "giftscout",
+      "preview": "Curated or homemade?",
+      "messages": [
+        {
+          "me": false,
+          "text": "Curated or homemade?"
+        },
+        {
+          "me": true,
+          "text": "Curated retailer example this time."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "Win Recap",
+      "handle": "winrecap",
+      "preview": "He actually booked it.",
+      "messages": [
+        {
+          "me": false,
+          "text": "He actually booked it."
+        },
+        {
+          "me": true,
+          "text": "Wins nest material."
+        }
+      ]
+    }
+  ],
+  "rail": {
+    "kind": "room-brief",
+    "title": "Room Brief",
+    "kicker": "On boyfriend",
+    "meta": "Preview \u00b7 noindex",
+    "footer": "Peer stories only. Gift outbound = curated well-known retailers. No therapy/medical claims.",
+    "porch": {
+      "prompt": "What happened at the table?",
+      "dwellMs": 9000,
+      "options": [
+        "A win",
+        "A fight",
+        "A gift idea"
+      ]
+    },
+    "outbound": [
+      {
+        "tag": "Curated",
+        "headline": "Nordstrom (example)",
+        "snippet": "Well-known retailer \u2014 labeled curated.",
+        "meta": "curated example",
+        "url": "https://www.nordstrom.com/"
+      },
+      {
+        "tag": "Curated",
+        "headline": "Best Buy (example)",
+        "snippet": "Outbound stub only.",
+        "meta": "curated example",
+        "url": "https://www.bestbuy.com/"
+      }
+    ]
+  },
+  "nests": [
+    {
+      "slug": "wins",
+      "label": "Wins",
+      "parent": null,
+      "kind": "topic",
+      "blurb": "The good nights and the receipts.",
+      "rankings": [
+        {
+          "id": "wins-top",
+          "title": "Wins \u00b7 top notes (sample)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Surprise reservation that landed",
+              "note": "Win lore",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "He remembered the small thing",
+              "note": "Detail energy",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Road trip without a fight",
+              "note": "Rare air",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-wins-1",
+          "subject": "Anniversary dinner win",
+          "stars": 5,
+          "snippet": "Story stub \u2014 not advice.",
+          "region": "US"
+        },
+        {
+          "id": "r-wins-2",
+          "subject": "Random Tuesday flowers",
+          "stars": 5,
+          "snippet": "Dummy win.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "fights",
+      "label": "Fights",
+      "parent": null,
+      "kind": "topic",
+      "blurb": "Argue here, not in the group chat.",
+      "rankings": [
+        {
+          "id": "fights-top",
+          "title": "Fights \u00b7 top notes (sample)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Tone vs content debates",
+              "note": "Classic",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Plans that never got locked",
+              "note": "Logistics fights",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Phone-at-dinner energy",
+              "note": "Present-tense",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-fights-1",
+          "subject": "Tone argument recap",
+          "stars": 3,
+          "snippet": "Story stub \u2014 no therapy claims.",
+          "region": "US"
+        },
+        {
+          "id": "r-fights-2",
+          "subject": "Logistics fight",
+          "stars": 3,
+          "snippet": "Dummy only.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "breakups",
+      "label": "Breakups",
+      "parent": null,
+      "kind": "topic",
+      "blurb": "Endings, soft and hard. Peer stories only.",
+      "rankings": [
+        {
+          "id": "breakups-top",
+          "title": "Breakups \u00b7 top notes (sample)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Mutual fade that stayed mutual",
+              "note": "Soft landing",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "The text that closed it",
+              "note": "Clarity",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Friends who picked a side",
+              "note": "Aftermath",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-break-1",
+          "subject": "Soft mutual ending",
+          "stars": 4,
+          "snippet": "Peer story stub \u2014 not counseling.",
+          "region": "US"
+        },
+        {
+          "id": "r-break-2",
+          "subject": "Hard cut text",
+          "stars": 3,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "gifts",
+      "label": "Gifts",
+      "parent": null,
+      "kind": "topic",
+      "blurb": "Curated buy ideas \u2014 outbound to well-known retailers only.",
+      "rankings": [
+        {
+          "id": "gifts-top",
+          "title": "Gifts \u00b7 top notes (sample)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Classic watch (example)",
+              "note": "Curated retailer example",
+              "url": "https://www.nordstrom.com/",
+              "priceHint": "illustrative",
+              "priceHintNote": "illustrative \u2014 not a live price",
+              "label": "curated"
+            },
+            {
+              "rank": 2,
+              "name": "Quality headphones (example)",
+              "note": "Curated retailer example",
+              "url": "https://www.bestbuy.com/",
+              "priceHint": "illustrative",
+              "priceHintNote": "illustrative \u2014 not a live price",
+              "label": "curated"
+            },
+            {
+              "rank": 3,
+              "name": "Nice jacket (example)",
+              "note": "Curated retailer example",
+              "url": "https://www.amazon.com/",
+              "priceHint": "illustrative",
+              "priceHintNote": "illustrative \u2014 not a live price",
+              "label": "curated"
+            },
+            {
+              "rank": 4,
+              "name": "Cookbook + tool (example)",
+              "note": "Curated retailer example",
+              "url": "https://www.williams-sonoma.com/",
+              "priceHint": "illustrative",
+              "priceHintNote": "illustrative \u2014 not a live price",
+              "label": "curated"
+            },
+            {
+              "rank": 5,
+              "name": "Sneakers (example)",
+              "note": "Curated retailer example",
+              "url": "https://www.nike.com/",
+              "priceHint": "illustrative",
+              "priceHintNote": "illustrative \u2014 not a live price",
+              "label": "curated"
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-gifts-1",
+          "subject": "Watch gift that landed",
+          "stars": 5,
+          "snippet": "Curated example only \u2014 not a product endorsement.",
+          "region": "US"
+        },
+        {
+          "id": "r-gifts-2",
+          "subject": "Headphones surprise",
+          "stars": 4,
+          "snippet": "Outbound stub.",
+          "region": "US"
+        }
+      ],
+      "railPins": [],
+      "outbound": [
+        {
+          "tag": "Curated",
+          "label": "curated example",
+          "headline": "Nordstrom (example retailer)",
+          "snippet": "Outbound only \u2014 not an affiliate claim.",
+          "url": "https://www.nordstrom.com/"
+        },
+        {
+          "tag": "Curated",
+          "label": "curated example",
+          "headline": "Best Buy (example retailer)",
+          "snippet": "Well-known retailer example.",
+          "url": "https://www.bestbuy.com/"
+        },
+        {
+          "tag": "Curated",
+          "label": "curated example",
+          "headline": "Williams Sonoma (example)",
+          "snippet": "Kitchen gift ideas \u2014 curated stub.",
+          "url": "https://www.williams-sonoma.com/"
+        }
+      ]
+    },
+    {
+      "slug": "dates",
+      "label": "Dates",
+      "parent": null,
+      "kind": "topic",
+      "blurb": "Plans, fails, and second tries.",
+      "rankings": [
+        {
+          "id": "dates-top",
+          "title": "Dates \u00b7 top notes (sample)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Walk + cheap tacos",
+              "note": "Low-stakes classic",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Museum on a weekday",
+              "note": "Crowd dodge",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Cooking at home",
+              "note": "No reservation required",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-dates-1",
+          "subject": "Taco walk date",
+          "stars": 5,
+          "snippet": "Story stub.",
+          "region": "US"
+        },
+        {
+          "id": "r-dates-2",
+          "subject": "Museum fail then coffee win",
+          "stars": 4,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "long-distance",
+      "label": "Long Distance",
+      "parent": null,
+      "kind": "topic",
+      "blurb": "Time zones, visits, and the wait.",
+      "rankings": [
+        {
+          "id": "long-distance-top",
+          "title": "Long Distance \u00b7 top notes (sample)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "Airport pickup ritual",
+              "note": "Visit lore",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Shared watch-party",
+              "note": "Same screen energy",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Calendar that actually syncs",
+              "note": "Logistics win",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-ld-1",
+          "subject": "Airport pickup",
+          "stars": 5,
+          "snippet": "Peer story.",
+          "region": "US"
+        },
+        {
+          "id": "r-ld-2",
+          "subject": "Missed call spiral",
+          "stars": 2,
+          "snippet": "Dummy \u2014 not advice.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    },
+    {
+      "slug": "meeting-family",
+      "label": "Meeting Family",
+      "parent": null,
+      "kind": "topic",
+      "blurb": "First dinners and the aftermath.",
+      "rankings": [
+        {
+          "id": "meeting-family-top",
+          "title": "Meeting Family \u00b7 top notes (sample)",
+          "items": [
+            {
+              "rank": 1,
+              "name": "He brought dessert",
+              "note": "Safe play",
+              "url": null
+            },
+            {
+              "rank": 2,
+              "name": "Sibling interrogation",
+              "note": "Classic",
+              "url": null
+            },
+            {
+              "rank": 3,
+              "name": "Pet won them over",
+              "note": "Backup plan",
+              "url": null
+            }
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r-fam-1",
+          "subject": "Dessert save",
+          "stars": 5,
+          "snippet": "Story stub.",
+          "region": "US"
+        },
+        {
+          "id": "r-fam-2",
+          "subject": "Sibling grill",
+          "stars": 3,
+          "snippet": "Dummy.",
+          "region": "US"
+        }
+      ],
+      "railPins": []
+    }
+  ],
+  "roomNumber": 14
+}
