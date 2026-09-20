@@ -9,7 +9,7 @@
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
-  "emptyState": "Preview room \u2014 noindex until GTM lifts. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift links are curated retailer examples only.",
+  "emptyState": "Preview room — noindex until GTM lifts. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift links are curated retailer examples only.",
   "theme": {
     "bg": "#1a1014",
     "surface": "#241820",
@@ -38,13 +38,13 @@
     {
       "tag": "Wins",
       "headline": "He remembered the small thing",
-      "snippet": "Story energy \u2014 not a funnel.",
+      "snippet": "Story energy — not a funnel.",
       "meta": "Nest: wins"
     },
     {
       "tag": "Gifts",
       "headline": "Curated retailer examples only",
-      "snippet": "Outbound stubs \u2014 labeled curated.",
+      "snippet": "Outbound stubs — labeled curated.",
       "meta": "Nest: gifts"
     },
     {
@@ -56,7 +56,7 @@
     {
       "tag": "Fights",
       "headline": "Tone vs content, again",
-      "snippet": "Peer stories \u2014 no therapy claims.",
+      "snippet": "Peer stories — no therapy claims.",
       "meta": "Nest: fights"
     },
     {
@@ -74,46 +74,76 @@
   ],
   "places": [
     {
-      "tag": "Topic",
+      "tag": "Seat",
       "title": "Wins",
-      "snippet": "Good nights and receipts."
+      "snippet": "The good nights and the receipts."
     },
     {
-      "tag": "Topic",
+      "tag": "Seat",
+      "title": "Fights",
+      "snippet": "Argue here, not in the group chat."
+    },
+    {
+      "tag": "Seat",
+      "title": "Breakups",
+      "snippet": "Endings, soft and hard. Peer stories only — not counseling."
+    },
+    {
+      "tag": "Seat",
       "title": "Gifts",
-      "snippet": "Curated buy examples only."
+      "snippet": "Curated buy ideas — outbound to well-known retailers only, labeled curated."
     },
     {
-      "tag": "Topic",
+      "tag": "Seat",
       "title": "Dates",
-      "snippet": "Plans, fails, second tries."
+      "snippet": "Plans, fails, and second tries."
     },
     {
-      "tag": "Topic",
+      "tag": "Seat",
       "title": "Long Distance",
-      "snippet": "Time zones and visits."
+      "snippet": "Time zones, visits, and the wait."
+    },
+    {
+      "tag": "Seat",
+      "title": "Meeting Family",
+      "snippet": "First dinners and the aftermath."
     }
   ],
   "topics": [
     {
-      "tag": "Stories",
-      "title": "Peer stories only",
-      "snippet": "No medical or therapy claims."
+      "tag": "Wins",
+      "title": "Wins",
+      "snippet": "Good nights, small receipts, the night he locked the reservation without being asked. Story energy — not advice."
+    },
+    {
+      "tag": "Fights",
+      "title": "Fights",
+      "snippet": "Tone vs content, plans that never got locked, phone-at-dinner. Argue in the nest, not the group chat. Peer only."
+    },
+    {
+      "tag": "Breakups",
+      "title": "Breakups",
+      "snippet": "Soft fades and hard cuts. Aftermath without counseling cosplay. Leave blank rather than invent closure tips."
     },
     {
       "tag": "Gifts",
-      "title": "Curated outbound",
-      "snippet": "Well-known retailers as examples."
+      "title": "Gifts",
+      "snippet": "Curated retailer examples (Nordstrom, Best Buy, Amazon, Nike, Williams Sonoma). Always labeled curated. Illustrative prices only — never live shelf claims. Not an affiliate dump."
     },
     {
-      "tag": "Intensity",
-      "title": "High-interest table",
-      "snippet": "Dating-app-in-disguise lock \u2014 not a funnel."
+      "tag": "Dates",
+      "title": "Dates",
+      "snippet": "Low-stakes taco walks, museum fails, cooking at home. Plans and second tries."
     },
     {
-      "tag": "Boundaries",
-      "title": "Breakups nest",
-      "snippet": "Peer endings \u2014 not counseling."
+      "tag": "LD",
+      "title": "Long Distance",
+      "snippet": "Airport pickups, shared watch-parties, calendars that actually sync. Visit lore, not relocation advice."
+    },
+    {
+      "tag": "Family",
+      "title": "Meeting Family",
+      "snippet": "Dessert as a safe play, sibling interrogation, the pet that won them over."
     }
   ],
   "stories": {
@@ -121,13 +151,13 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample \u2014 not mixed into the live feed",
+  "seedNote": "sample — not mixed into the live feed",
   "seed": [
     {
       "id": "p1",
       "name": "Win Recap",
       "handle": "winrecap",
-      "text": "He locked the reservation without being asked. Wins nest. Story stub \u2014 not advice.",
+      "text": "He locked the reservation without being asked. Wins nest. Story stub — not advice.",
       "hours": 2,
       "likes": 140,
       "replies": 22,
@@ -138,7 +168,7 @@
       "id": "p2",
       "name": "Gift Scout",
       "handle": "giftscout",
-      "text": "Headphones from a curated retailer example. Gifts nest \u2014 outbound labeled curated.",
+      "text": "Headphones from a curated retailer example. Gifts nest — outbound labeled curated.",
       "hours": 4,
       "likes": 91,
       "replies": 15,
@@ -160,7 +190,7 @@
       "id": "p4",
       "name": "Tone Check",
       "handle": "tonecheck",
-      "text": "Fought about tone again. Fights nest \u2014 peer story only.",
+      "text": "Fought about tone again. Fights nest — peer story only.",
       "hours": 9,
       "likes": 66,
       "replies": 19,
@@ -248,7 +278,7 @@
     "kind": "room-brief",
     "title": "Room Brief",
     "kicker": "On boyfriend",
-    "meta": "Preview \u00b7 noindex",
+    "meta": "Preview · noindex",
     "footer": "Peer stories only. Gift outbound = curated well-known retailers. No therapy/medical claims.",
     "porch": {
       "prompt": "What happened at the table?",
@@ -263,7 +293,7 @@
       {
         "tag": "Curated",
         "headline": "Nordstrom (example)",
-        "snippet": "Well-known retailer \u2014 labeled curated.",
+        "snippet": "Well-known retailer — labeled curated.",
         "meta": "curated example",
         "url": "https://www.nordstrom.com/"
       },
@@ -274,7 +304,12 @@
         "meta": "curated example",
         "url": "https://www.bestbuy.com/"
       }
-    ]
+    ],
+    "fact": {
+      "tag": "FACT",
+      "headline": "Peer stories only.",
+      "body": "This is a conversation room, not a dating app, not therapy, and not medical advice. Gift outbound = curated well-known retailers (examples labeled curated). Prices, if shown, are illustrative — not live shelf. Sample feed = dress rehearsal. Preview / noindex until GTM lifts. No cold invites from this page."
+    }
   },
   "nests": [
     {
@@ -286,7 +321,7 @@
       "rankings": [
         {
           "id": "wins-top",
-          "title": "Wins \u00b7 top notes (sample)",
+          "title": "Wins · top notes (sample)",
           "items": [
             {
               "rank": 1,
@@ -314,7 +349,7 @@
           "id": "r-wins-1",
           "subject": "Anniversary dinner win",
           "stars": 5,
-          "snippet": "Story stub \u2014 not advice.",
+          "snippet": "Story stub — not advice.",
           "region": "US"
         },
         {
@@ -325,7 +360,8 @@
           "region": "US"
         }
       ],
-      "railPins": []
+      "railPins": [],
+      "body": "Good nights, small receipts, the night he locked the reservation without being asked. Story energy — not advice."
     },
     {
       "slug": "fights",
@@ -336,7 +372,7 @@
       "rankings": [
         {
           "id": "fights-top",
-          "title": "Fights \u00b7 top notes (sample)",
+          "title": "Fights · top notes (sample)",
           "items": [
             {
               "rank": 1,
@@ -364,7 +400,7 @@
           "id": "r-fights-1",
           "subject": "Tone argument recap",
           "stars": 3,
-          "snippet": "Story stub \u2014 no therapy claims.",
+          "snippet": "Story stub — no therapy claims.",
           "region": "US"
         },
         {
@@ -375,18 +411,19 @@
           "region": "US"
         }
       ],
-      "railPins": []
+      "railPins": [],
+      "body": "Tone vs content, plans that never got locked, phone-at-dinner. Argue in the nest, not the group chat. Peer only."
     },
     {
       "slug": "breakups",
       "label": "Breakups",
       "parent": null,
       "kind": "topic",
-      "blurb": "Endings, soft and hard. Peer stories only.",
+      "blurb": "Endings, soft and hard. Peer stories only — not counseling.",
       "rankings": [
         {
           "id": "breakups-top",
-          "title": "Breakups \u00b7 top notes (sample)",
+          "title": "Breakups · top notes (sample)",
           "items": [
             {
               "rank": 1,
@@ -414,7 +451,7 @@
           "id": "r-break-1",
           "subject": "Soft mutual ending",
           "stars": 4,
-          "snippet": "Peer story stub \u2014 not counseling.",
+          "snippet": "Peer story stub — not counseling.",
           "region": "US"
         },
         {
@@ -425,18 +462,19 @@
           "region": "US"
         }
       ],
-      "railPins": []
+      "railPins": [],
+      "body": "Soft fades and hard cuts. Aftermath without counseling cosplay. Leave blank rather than invent closure tips."
     },
     {
       "slug": "gifts",
       "label": "Gifts",
       "parent": null,
       "kind": "topic",
-      "blurb": "Curated buy ideas \u2014 outbound to well-known retailers only.",
+      "blurb": "Curated buy ideas — outbound to well-known retailers only, labeled curated.",
       "rankings": [
         {
           "id": "gifts-top",
-          "title": "Gifts \u00b7 top notes (sample)",
+          "title": "Gifts · top notes (sample)",
           "items": [
             {
               "rank": 1,
@@ -444,7 +482,7 @@
               "note": "Curated retailer example",
               "url": "https://www.nordstrom.com/",
               "priceHint": "illustrative",
-              "priceHintNote": "illustrative \u2014 not a live price",
+              "priceHintNote": "illustrative — not a live price",
               "label": "curated"
             },
             {
@@ -453,7 +491,7 @@
               "note": "Curated retailer example",
               "url": "https://www.bestbuy.com/",
               "priceHint": "illustrative",
-              "priceHintNote": "illustrative \u2014 not a live price",
+              "priceHintNote": "illustrative — not a live price",
               "label": "curated"
             },
             {
@@ -462,7 +500,7 @@
               "note": "Curated retailer example",
               "url": "https://www.amazon.com/",
               "priceHint": "illustrative",
-              "priceHintNote": "illustrative \u2014 not a live price",
+              "priceHintNote": "illustrative — not a live price",
               "label": "curated"
             },
             {
@@ -471,7 +509,7 @@
               "note": "Curated retailer example",
               "url": "https://www.williams-sonoma.com/",
               "priceHint": "illustrative",
-              "priceHintNote": "illustrative \u2014 not a live price",
+              "priceHintNote": "illustrative — not a live price",
               "label": "curated"
             },
             {
@@ -480,7 +518,7 @@
               "note": "Curated retailer example",
               "url": "https://www.nike.com/",
               "priceHint": "illustrative",
-              "priceHintNote": "illustrative \u2014 not a live price",
+              "priceHintNote": "illustrative — not a live price",
               "label": "curated"
             }
           ]
@@ -491,7 +529,7 @@
           "id": "r-gifts-1",
           "subject": "Watch gift that landed",
           "stars": 5,
-          "snippet": "Curated example only \u2014 not a product endorsement.",
+          "snippet": "Curated example only — not a product endorsement.",
           "region": "US"
         },
         {
@@ -508,7 +546,7 @@
           "tag": "Curated",
           "label": "curated example",
           "headline": "Nordstrom (example retailer)",
-          "snippet": "Outbound only \u2014 not an affiliate claim.",
+          "snippet": "Outbound only — not an affiliate claim.",
           "url": "https://www.nordstrom.com/"
         },
         {
@@ -522,10 +560,11 @@
           "tag": "Curated",
           "label": "curated example",
           "headline": "Williams Sonoma (example)",
-          "snippet": "Kitchen gift ideas \u2014 curated stub.",
+          "snippet": "Kitchen gift ideas — curated stub.",
           "url": "https://www.williams-sonoma.com/"
         }
-      ]
+      ],
+      "body": "Curated retailer examples (Nordstrom, Best Buy, Amazon, Nike, Williams Sonoma). Always labeled curated. Illustrative prices only — never live shelf claims. Not an affiliate dump."
     },
     {
       "slug": "dates",
@@ -536,7 +575,7 @@
       "rankings": [
         {
           "id": "dates-top",
-          "title": "Dates \u00b7 top notes (sample)",
+          "title": "Dates · top notes (sample)",
           "items": [
             {
               "rank": 1,
@@ -575,7 +614,8 @@
           "region": "US"
         }
       ],
-      "railPins": []
+      "railPins": [],
+      "body": "Low-stakes taco walks, museum fails, cooking at home. Plans and second tries."
     },
     {
       "slug": "long-distance",
@@ -586,7 +626,7 @@
       "rankings": [
         {
           "id": "long-distance-top",
-          "title": "Long Distance \u00b7 top notes (sample)",
+          "title": "Long Distance · top notes (sample)",
           "items": [
             {
               "rank": 1,
@@ -621,11 +661,12 @@
           "id": "r-ld-2",
           "subject": "Missed call spiral",
           "stars": 2,
-          "snippet": "Dummy \u2014 not advice.",
+          "snippet": "Dummy — not advice.",
           "region": "US"
         }
       ],
-      "railPins": []
+      "railPins": [],
+      "body": "Airport pickups, shared watch-parties, calendars that actually sync. Visit lore, not relocation advice."
     },
     {
       "slug": "meeting-family",
@@ -636,7 +677,7 @@
       "rankings": [
         {
           "id": "meeting-family-top",
-          "title": "Meeting Family \u00b7 top notes (sample)",
+          "title": "Meeting Family · top notes (sample)",
           "items": [
             {
               "rank": 1,
@@ -675,8 +716,12 @@
           "region": "US"
         }
       ],
-      "railPins": []
+      "railPins": [],
+      "body": "Dessert as a safe play, sibling interrogation, the pet that won them over."
     }
   ],
-  "roomNumber": 14
+  "roomNumber": 14,
+  "description": "Peer relationship stories — wins, fights, dates, gifts. Warm table talk, not a dating funnel. Not therapy. Preview.",
+  "exploreExplainer": "boyfriendchat is a table for high-intensity relationship stories — dating-app energy without the funnel. You bring a win, a fight, a date that flopped, a gift that landed. Peers talk. Nobody here is your therapist, your matchmaker, or your checkout cart.",
+  "trustBlurb": "What boyfriendchat will not do: dating-funnel cosplay, therapy claims, NSFW dump, predatory DMs, or fake gift rankings. Peer stories. Curated retailer examples only. Preview on purpose. Welcomes iced until kill-switch."
 }

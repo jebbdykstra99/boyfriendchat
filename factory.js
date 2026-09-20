@@ -6,7 +6,7 @@
   const LS_LIKES = '415chat.likes';
   const SITE_JSON_URL = (document.currentScript && document.currentScript.getAttribute('data-site')) || 'site.json';
 
-  let SITE_ID = '415chat';
+  let SITE_ID = 'boyfriend';
   let site = null;
   let COLORS = ['#0b1c2c', '#1b6b73', '#c0362c', '#2a4a62', '#8a3b32', '#345c6e'];
   let TRENDS = [];
@@ -368,7 +368,7 @@
 
   function applySiteChrome() {
     if (!site) return;
-    var title = site.name || "415chat";
+    var title = site.name || "boyfriendchat";
     var tag = site.tagline || '';
     document.title = tag ? (title + ' — ' + tag) : title;
     var brandTitle = document.querySelector('.brand-title');
@@ -379,7 +379,7 @@
     if (authTitle) authTitle.textContent = 'Join ' + title;
     var authNote = document.querySelector('#cv-auth-overlay .conv-modal-note');
     if (authNote) {
-      authNote.textContent = 'Continue with Google to join ' + title + '. Email is optional. Guest is browse-only.';
+      authNote.textContent = site.trustBlurb || ('Continue with Google to join ' + title + '. Email is optional. Guest is browse-only.');
     }
     var input = document.getElementById('thoughts-compose-input');
     if (input && site.composePlaceholder) {
@@ -524,7 +524,7 @@
       el.className = 'early-welcome';
       el.setAttribute('role', 'status');
       el.innerHTML =
-        '<div class="early-welcome-copy">You\'re early. This room is live but unfinished. Who do you sit with on the grid — driver, team, or both? Tell the room.</div>' +
+        '<div class="early-welcome-copy">' + escapeHtml((site && site.earlyWelcomeCopy) || 'You\'re early. This room is live but unfinished.') + '</div>' +
         '<button type="button" class="early-welcome-dismiss" id="early-welcome-dismiss" aria-label="Dismiss">&times;</button>';
       var compose = document.getElementById('thoughts-compose-wrap');
       if (compose && compose.parentNode) compose.parentNode.insertBefore(el, compose.nextSibling);
@@ -875,6 +875,28 @@
     '</a>';
   }
 
+  function factCardHtml() {
+    var fact = railCfg().fact;
+    if (!fact) return '';
+    var tag = 'FACT';
+    var headline = '';
+    var body = '';
+    if (typeof fact === 'string') {
+      body = fact;
+    } else {
+      tag = fact.tag || 'FACT';
+      headline = fact.headline || '';
+      body = fact.body || fact.snippet || '';
+    }
+    if (!body && !headline) return '';
+    return '<div class="news-item news-item-fact">' +
+      '<div class="news-item-tag">' + escapeHtml(tag) + '</div>' +
+      (headline ? '<div class="news-item-headline">' + escapeHtml(headline) + '</div>' : '') +
+      (body ? '<div class="news-item-snippet">' + escapeHtml(body) + '</div>' : '') +
+      '<div class="news-item-meta">' + escapeHtml(railCfg().meta || 'Preview · noindex') + '</div>' +
+    '</div>';
+  }
+
   function porchCardHtml() {
     var porch = railCfg().porch;
     if (!porch || !porch.options || !porch.options.length) return '';
@@ -919,7 +941,7 @@
 
   function paintRail(items) {
     ensureRailCss();
-    var html = (items || []).map(renderTrendCard).join('') + porchCardHtml();
+    var html = factCardHtml() + (items || []).map(renderTrendCard).join('') + porchCardHtml();
     var rail = document.getElementById('news-feed');
     var page = document.getElementById('news-page-list');
     if (rail) rail.innerHTML = html;
@@ -2179,6 +2201,18 @@
     });
   }
 
+  function nestSeatCards() {
+    var nests = (site && site.nests) || [];
+    return nests.map(function (n) {
+      return {
+        tag: 'Seat',
+        title: n.label || n.slug || 'Seat',
+        snippet: n.blurb || n.body || '',
+        url: ''
+      };
+    });
+  }
+
   function renderExplore() {
     function cards(list) {
       return list.map(function (c) {
@@ -2191,9 +2225,17 @@
         return '<article class="explore-card">' + inner + '</article>';
       }).join('');
     }
+    var explainer = document.getElementById('explore-explainer');
+    if (explainer) {
+      var copy = (site && site.exploreExplainer) || '';
+      explainer.textContent = copy;
+      explainer.hidden = !copy;
+    }
+    var seats = nestSeatCards();
+    var placeCards = seats.length ? seats : PLACES;
     var places = document.getElementById('explore-pane-places');
     var topics = document.getElementById('explore-pane-topics');
-    if (places) places.innerHTML = cards(PLACES);
+    if (places) places.innerHTML = cards(placeCards);
     if (topics) topics.innerHTML = cards(TOPICS);
   }
 
@@ -2718,7 +2760,7 @@
     if (!pane) return;
     const mine = livePosts.filter(function (p) { return p.authorUid && p.authorUid === uid; });
     if (!mine.length) {
-      pane.innerHTML = '<div class="empty-note" id="profile-posts-empty">No posts yet. Hit Post when something about the city is on your mind.</div>';
+      pane.innerHTML = '<div class="empty-note" id="profile-posts-empty">No posts yet. Hit Post when something happened at the table.</div>';
     } else {
       pane.innerHTML = mine.map(function (p) { return renderPost(p, !!p.parentId); }).join('');
     }
@@ -2758,7 +2800,7 @@
     paintProfile(
       currentUser.name,
       currentUser.handle,
-      currentUser.bio || "Talking about the city.",
+      currentUser.bio || "Visiting the table.",
       currentUser.uid
     );
   }
@@ -2793,7 +2835,7 @@
     } else {
       el.innerHTML = '<button class="sidebar-auth-btn primary" id="auth-signin" type="button">Sign in</button>';
       if (av) {
-        av.textContent = "415";
+        av.textContent = "BF";
         av.style.background = '';
       }
     }
@@ -2980,8 +3022,8 @@
     var draft = peekCompose();
     currentUser = {
       name: name || 'Guest',
-      handle: (handle || 'guest415').replace(/^@/, '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 15) || 'guest415',
-      bio: "San Francisco, talking.",
+      handle: (handle || 'guest').replace(/^@/, '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 15) || 'guest',
+      bio: "Visiting the table.",
       live: false
     };
     saveJSON(LS_USER, currentUser);
@@ -3741,7 +3783,7 @@
         });
       }
     });
-    document.getElementById('cv-guest-login').addEventListener('click', function () { stubSignIn('Guest', 'guest415'); });
+    document.getElementById('cv-guest-login').addEventListener('click', function () { stubSignIn('Guest', 'guest'); });
 
     const search = document.getElementById('explore-search-input');
     search.addEventListener('input', function () {
@@ -3753,14 +3795,15 @@
         });
       }
       function cards(list) {
-        if (!list.length) return '<p class="empty-note">Nothing in the 415 matched that.</p>';
+        if (!list.length) return '<p class="empty-note">Nothing at the table matched that.</p>';
         return list.map(function (c) {
           return '<article class="explore-card"><div class="explore-card-tag">' + escapeHtml(c.tag) +
             '</div><div class="explore-card-title">' + escapeHtml(c.title) +
             '</div><div class="explore-card-snippet">' + escapeHtml(c.snippet) + '</div></article>';
         }).join('');
       }
-      document.getElementById('explore-pane-places').innerHTML = cards(filt(PLACES));
+      var seats = nestSeatCards();
+      document.getElementById('explore-pane-places').innerHTML = cards(filt(seats.length ? seats : PLACES));
       document.getElementById('explore-pane-topics').innerHTML = cards(filt(TOPICS));
     });
   }
@@ -3789,7 +3832,7 @@
     return !!(storiesCfg().enabled);
   }
   function storiesComposePlaceholder() {
-    return (site && site.composePlaceholder) || "A tool with a receipt — not an oracle.";
+    return (site && site.composePlaceholder) || "What happened at the table?";
   }
   function storiesMaxBytes() {
     var n = parseInt(storiesCfg().maxBytes, 10);
@@ -4575,8 +4618,8 @@
           el.hidden = false;
           el.innerHTML =
             '<button type="button" class="stories-item is-add" data-story-add="1" aria-label="Add story">' +
-              '<span class="stories-ring"><span class="stories-avatar" style="background:' + colorFor(SITE_ID || 'gaichat') + '">' +
-              escapeHtml(String(SITE_ID || 'gaichat').replace(/chat$/i, '').slice(0, 3).toUpperCase() || 'ME') + '</span>' +
+              '<span class="stories-ring"><span class="stories-avatar" style="background:' + colorFor(SITE_ID || 'boyfriend') + '">' +
+              escapeHtml(String(SITE_ID || 'boyfriend').replace(/chat$/i, '').slice(0, 3).toUpperCase() || 'ME') + '</span>' +
               '<span class="stories-add-badge">+</span></span>' +
               '<span class="stories-label">Add story</span></button>';
         },
@@ -4588,8 +4631,8 @@
               id: s.id || ('demo-' + i),
               siteId: SITE_ID,
               authorUid: s.authorUid || ('demo-' + i),
-              name: s.name || (site && site.name) || 'gaichat',
-              handle: s.handle || SITE_ID || 'gaichat',
+              name: s.name || (site && site.name) || 'boyfriendchat',
+              handle: s.handle || SITE_ID || 'boyfriend',
               type: s.type || 'text',
               text: s.text || '',
               mediaUrl: s.mediaUrl || '',
@@ -4691,6 +4734,6 @@
     .catch(function (e) {
       console.warn('site.json', e);
       composeErr((e && e.message) ? e.message : 'Could not load site.json');
-      boot({ siteId: "415chat", name: "415chat", tagline: "San Francisco, talking." });
+      boot({ siteId: "boyfriend", name: "boyfriendchat", tagline: "His stories. Your table." });
     });
 })();
