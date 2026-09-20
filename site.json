@@ -5,7 +5,7 @@
   "domain": "boyfriendchat.com",
   "tagline": "His stories. Your table.",
   "composePlaceholder": "What happened at the table?",
-  "earlyWelcome": true,
+  "earlyWelcome": false,
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
@@ -318,32 +318,7 @@
       "parent": null,
       "kind": "topic",
       "blurb": "The good nights and the receipts.",
-      "rankings": [
-        {
-          "id": "wins-top",
-          "title": "Wins · top notes (sample)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Surprise reservation that landed",
-              "note": "Win lore",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "He remembered the small thing",
-              "note": "Detail energy",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Road trip without a fight",
-              "note": "Rare air",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-wins-1",
@@ -369,32 +344,7 @@
       "parent": null,
       "kind": "topic",
       "blurb": "Argue here, not in the group chat.",
-      "rankings": [
-        {
-          "id": "fights-top",
-          "title": "Fights · top notes (sample)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Tone vs content debates",
-              "note": "Classic",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Plans that never got locked",
-              "note": "Logistics fights",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Phone-at-dinner energy",
-              "note": "Present-tense",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-fights-1",
@@ -420,32 +370,7 @@
       "parent": null,
       "kind": "topic",
       "blurb": "Endings, soft and hard. Peer stories only — not counseling.",
-      "rankings": [
-        {
-          "id": "breakups-top",
-          "title": "Breakups · top notes (sample)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Mutual fade that stayed mutual",
-              "note": "Soft landing",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "The text that closed it",
-              "note": "Clarity",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Friends who picked a side",
-              "note": "Aftermath",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-break-1",
@@ -471,59 +396,7 @@
       "parent": null,
       "kind": "topic",
       "blurb": "Curated buy ideas — outbound to well-known retailers only, labeled curated.",
-      "rankings": [
-        {
-          "id": "gifts-top",
-          "title": "Gifts · top notes (sample)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Classic watch (example)",
-              "note": "Curated retailer example",
-              "url": "https://www.nordstrom.com/",
-              "priceHint": "illustrative",
-              "priceHintNote": "illustrative — not a live price",
-              "label": "curated"
-            },
-            {
-              "rank": 2,
-              "name": "Quality headphones (example)",
-              "note": "Curated retailer example",
-              "url": "https://www.bestbuy.com/",
-              "priceHint": "illustrative",
-              "priceHintNote": "illustrative — not a live price",
-              "label": "curated"
-            },
-            {
-              "rank": 3,
-              "name": "Nice jacket (example)",
-              "note": "Curated retailer example",
-              "url": "https://www.amazon.com/",
-              "priceHint": "illustrative",
-              "priceHintNote": "illustrative — not a live price",
-              "label": "curated"
-            },
-            {
-              "rank": 4,
-              "name": "Cookbook + tool (example)",
-              "note": "Curated retailer example",
-              "url": "https://www.williams-sonoma.com/",
-              "priceHint": "illustrative",
-              "priceHintNote": "illustrative — not a live price",
-              "label": "curated"
-            },
-            {
-              "rank": 5,
-              "name": "Sneakers (example)",
-              "note": "Curated retailer example",
-              "url": "https://www.nike.com/",
-              "priceHint": "illustrative",
-              "priceHintNote": "illustrative — not a live price",
-              "label": "curated"
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-gifts-1",
@@ -572,32 +445,7 @@
       "parent": null,
       "kind": "topic",
       "blurb": "Plans, fails, and second tries.",
-      "rankings": [
-        {
-          "id": "dates-top",
-          "title": "Dates · top notes (sample)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Walk + cheap tacos",
-              "note": "Low-stakes classic",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Museum on a weekday",
-              "note": "Crowd dodge",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Cooking at home",
-              "note": "No reservation required",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-dates-1",
@@ -623,32 +471,7 @@
       "parent": null,
       "kind": "topic",
       "blurb": "Time zones, visits, and the wait.",
-      "rankings": [
-        {
-          "id": "long-distance-top",
-          "title": "Long Distance · top notes (sample)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "Airport pickup ritual",
-              "note": "Visit lore",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Shared watch-party",
-              "note": "Same screen energy",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Calendar that actually syncs",
-              "note": "Logistics win",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-ld-1",
@@ -674,32 +497,7 @@
       "parent": null,
       "kind": "topic",
       "blurb": "First dinners and the aftermath.",
-      "rankings": [
-        {
-          "id": "meeting-family-top",
-          "title": "Meeting Family · top notes (sample)",
-          "items": [
-            {
-              "rank": 1,
-              "name": "He brought dessert",
-              "note": "Safe play",
-              "url": null
-            },
-            {
-              "rank": 2,
-              "name": "Sibling interrogation",
-              "note": "Classic",
-              "url": null
-            },
-            {
-              "rank": 3,
-              "name": "Pet won them over",
-              "note": "Backup plan",
-              "url": null
-            }
-          ]
-        }
-      ],
+      "rankings": [],
       "reviews": [
         {
           "id": "r-fam-1",
