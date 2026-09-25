@@ -291,18 +291,18 @@
     },
     "outbound": [
       {
-        "tag": "Curated",
-        "headline": "Nordstrom (example)",
-        "snippet": "Well-known retailer — labeled curated.",
-        "meta": "curated example",
-        "url": "https://www.nordstrom.com/"
+        "tag": "Board",
+        "headline": "Scams board",
+        "url": "https://www.usa.gov/scams-and-fraud",
+        "snippet": "Official USAGov Scams and fraud hub. Not a dating site; not counseling.",
+        "meta": "Official · board"
       },
       {
-        "tag": "Curated",
-        "headline": "Best Buy (example)",
-        "snippet": "Outbound stub only.",
-        "meta": "curated example",
-        "url": "https://www.bestbuy.com/"
+        "tag": "Board",
+        "headline": "Consumer Advice",
+        "url": "https://consumer.ftc.gov/",
+        "snippet": "Official FTC Consumer Advice. Not medical; not affiliate mall.",
+        "meta": "Official · board"
       }
     ],
     "fact": {
