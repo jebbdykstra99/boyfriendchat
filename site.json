@@ -9,7 +9,7 @@
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
-  "emptyState": "Preview room — noindex until GTM lifts. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift links are curated retailer examples only.",
+  "emptyState": "Preview room — noindex. No GTM. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift talk is consumer-protection honesty, not an affiliate mall.",
   "theme": {
     "bg": "#1a1014",
     "surface": "#241820",
@@ -43,8 +43,8 @@
     },
     {
       "tag": "Gifts",
-      "headline": "Curated retailer examples only",
-      "snippet": "Outbound stubs — labeled curated.",
+      "headline": "Story or scam-check first",
+      "snippet": "Peer gift stories. FTC and USAGov boards on the rail.",
       "meta": "Nest: gifts"
     },
     {
@@ -76,37 +76,37 @@
     {
       "tag": "Seat",
       "title": "Wins",
-      "snippet": "The good nights and the receipts."
+      "snippet": "Good nights and receipts. Ask: what small thing actually landed?"
     },
     {
       "tag": "Seat",
       "title": "Fights",
-      "snippet": "Argue here, not in the group chat."
+      "snippet": "Argue here, not the group chat. Ask: tone or content — which was it really?"
     },
     {
       "tag": "Seat",
       "title": "Breakups",
-      "snippet": "Endings, soft and hard. Peer stories only — not counseling."
+      "snippet": "Soft and hard endings. Ask: what closed it — and what still needs a sentence? Peer only."
     },
     {
       "tag": "Seat",
       "title": "Gifts",
-      "snippet": "Curated buy ideas — outbound to well-known retailers only, labeled curated."
+      "snippet": "Peer gift stories + consumer honesty. Ask: story or scam-check first? FTC + USAGov boards on the rail."
     },
     {
       "tag": "Seat",
       "title": "Dates",
-      "snippet": "Plans, fails, and second tries."
+      "snippet": "Plans, fails, second tries. Ask: low-stakes classic or the flop-then-fix?"
     },
     {
       "tag": "Seat",
       "title": "Long Distance",
-      "snippet": "Time zones, visits, and the wait."
+      "snippet": "Time zones and visits. Ask: what ritual held — pickup, watch-party, or calendar?"
     },
     {
       "tag": "Seat",
       "title": "Meeting Family",
-      "snippet": "First dinners and the aftermath."
+      "snippet": "First dinners and aftermath. Ask: dessert save or sibling grill — what actually helped?"
     }
   ],
   "topics": [
@@ -128,7 +128,7 @@
     {
       "tag": "Gifts",
       "title": "Gifts",
-      "snippet": "Curated retailer examples (Nordstrom, Best Buy, Amazon, Nike, Williams Sonoma). Always labeled curated. Illustrative prices only — never live shelf claims. Not an affiliate dump."
+      "snippet": "Peer gift stories plus consumer honesty. Open FTC Consumer Advice before a must-buy thread, and the USAGov scams board when a stranger pitch shows up. Not an affiliate mall. Not a price feed."
     },
     {
       "tag": "Dates",
@@ -151,91 +151,185 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample — not mixed into the live feed",
+  "seedNote": "sample — not mixed into the live feed; not a live volume claim",
   "seed": [
     {
       "id": "p1",
-      "name": "Win Recap",
-      "handle": "winrecap",
-      "text": "He locked the reservation without being asked. Wins nest. Story stub — not advice.",
+      "name": "Small Receipt",
+      "handle": "smallreceipt",
+      "text": "He locked the reservation without being asked. Wins nest is for receipts like that — one beat, not a tip list. What small thing actually landed for you?",
       "hours": 2,
-      "likes": 140,
-      "replies": 22,
-      "followed": true,
-      "nestSlug": "wins"
+      "likes": 4,
+      "replies": 1,
+      "followed": false,
+      "nestSlug": "wins",
+      "outbound": {
+        "label": "Official FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/",
+        "fact": "Free shopping/consumer-protection guidance. Not medical advice; not an affiliate mall."
+      }
     },
     {
       "id": "p2",
-      "name": "Gift Scout",
-      "handle": "giftscout",
-      "text": "Headphones from a curated retailer example. Gifts nest — outbound labeled curated.",
+      "name": "Tone Check",
+      "handle": "tonecheck",
+      "text": "Tone vs content again. Argue it here, not in the group chat. Peer story only — what was the fight really about when you strip the volume?",
       "hours": 4,
-      "likes": 91,
-      "replies": 15,
-      "followed": true,
-      "nestSlug": "gifts"
+      "likes": 3,
+      "replies": 1,
+      "followed": false,
+      "nestSlug": "fights",
+      "outbound": {
+        "label": "Official USAGov Scams and fraud hub",
+        "url": "https://www.usa.gov/scams-and-fraud",
+        "fact": "Free public consumer board. Not counseling; not a dating site."
+      }
     },
     {
       "id": "p3",
-      "name": "Taco Walk",
-      "handle": "tacowalk",
-      "text": "Low-stakes date that worked. Dates nest stub.",
+      "name": "Low Stakes",
+      "handle": "lowstakes",
+      "text": "Walk + cheap tacos still beats a performative dinner. Dates nest wants the plan, the fail, or the second try — which one are you bringing?",
       "hours": 6,
-      "likes": 78,
-      "replies": 10,
+      "likes": 5,
+      "replies": 1,
       "followed": false,
-      "nestSlug": "dates"
+      "nestSlug": "dates",
+      "outbound": {
+        "label": "Official FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/",
+        "fact": "Official FTC Consumer Advice. Shopping/gift honesty without therapy cosplay."
+      }
     },
     {
       "id": "p4",
-      "name": "Tone Check",
-      "handle": "tonecheck",
-      "text": "Fought about tone again. Fights nest — peer story only.",
-      "hours": 9,
-      "likes": 66,
-      "replies": 19,
-      "followed": true,
-      "nestSlug": "fights"
+      "name": "Gift Honesty",
+      "handle": "gifthonesty",
+      "text": "Gift talk here is peer story + consumer honesty — not a checkout cart. Before you chase a “must-buy” thread, open Consumer Advice and keep outbound labeled as public guidance, not affiliate flex.",
+      "hours": 8,
+      "likes": 3,
+      "replies": 1,
+      "followed": false,
+      "nestSlug": "gifts",
+      "outbound": {
+        "label": "Official FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/",
+        "fact": "Free FTC shopping/consumer-protection desk. Not a price feed; not an endorsement."
+      }
     },
     {
       "id": "p5",
-      "name": "Gate Wait",
-      "handle": "gatewait",
-      "text": "Airport pickup after three months. Long-distance nest.",
-      "hours": 12,
-      "likes": 112,
-      "replies": 17,
-      "followed": true,
-      "nestSlug": "long-distance"
+      "name": "Romance Scam Desk",
+      "handle": "scamdesk",
+      "text": "If the “perfect stranger” pitch shows up in your orbit, don’t workshop it as flirt lore. Use the official scams board, then come back and tell the room what red flag you almost ignored.",
+      "hours": 10,
+      "likes": 4,
+      "replies": 1,
+      "followed": false,
+      "nestSlug": "gifts",
+      "outbound": {
+        "label": "Official USAGov Scams and fraud hub",
+        "url": "https://www.usa.gov/scams-and-fraud",
+        "fact": "Official USAGov Scams and fraud hub (romance/online scams included). Not a dating funnel; not counseling."
+      }
     },
     {
       "id": "p6",
+      "name": "Gate Wait",
+      "handle": "gatewait",
+      "text": "Airport pickup after months. LD nest is visit lore and calendar honesty — not relocation advice. What ritual actually held you two together last stretch?",
+      "hours": 12,
+      "likes": 3,
+      "replies": 1,
+      "followed": false,
+      "nestSlug": "long-distance",
+      "outbound": {
+        "label": "Official FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/",
+        "fact": "Official consumer desk for money/travel/gift friction. Not medical; not matchmaking."
+      }
+    },
+    {
+      "id": "p7",
       "name": "Dessert Save",
       "handle": "dessertsave",
-      "text": "Brought pie to meet the parents. Meeting-family nest stub.",
-      "hours": 16,
-      "likes": 88,
-      "replies": 11,
+      "text": "Brought pie. Meeting Family is first-dinner energy and aftermath — peer only. What safe play actually helped, and what would you skip next time?",
+      "hours": 14,
+      "likes": 2,
+      "replies": 1,
       "followed": false,
-      "nestSlug": "meeting-family"
+      "nestSlug": "meeting-family",
+      "outbound": {
+        "label": "Official FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/",
+        "fact": "Free public consumer guidance. Not etiquette counseling."
+      }
+    },
+    {
+      "id": "p8",
+      "name": "Soft Landing",
+      "handle": "softlanding",
+      "text": "Mutual fade that stayed mutual. Breakups nest is peer endings — not counseling cosplay. What closed it cleanly, and what still needs a sentence?",
+      "hours": 16,
+      "likes": 3,
+      "replies": 1,
+      "followed": false,
+      "nestSlug": "breakups",
+      "outbound": {
+        "label": "Official USAGov Scams and fraud hub",
+        "url": "https://www.usa.gov/scams-and-fraud",
+        "fact": "Official scams hub stays on the rail for scam-adjacent fallout; breakup stories stay peer-only. Not therapy."
+      }
+    },
+    {
+      "id": "p9",
+      "name": "Phone At Dinner",
+      "handle": "phoneatdinner",
+      "text": "Present-tense fight classic. Tell the room the one rule you’d actually keep — and ask someone else what theirs is.",
+      "hours": 18,
+      "likes": 2,
+      "replies": 1,
+      "followed": false,
+      "nestSlug": "fights",
+      "outbound": {
+        "label": "Official FTC Consumer Advice",
+        "url": "https://consumer.ftc.gov/",
+        "fact": "Official FTC Consumer Advice. Not relationship advice dressed as FACT."
+      }
+    },
+    {
+      "id": "p10",
+      "name": "Second Try",
+      "handle": "secondtry",
+      "text": "Museum fail, coffee win. Second tries belong here. What flopped, what you fixed, and what you’d teach a friend without inventing a script?",
+      "hours": 20,
+      "likes": 4,
+      "replies": 1,
+      "followed": false,
+      "nestSlug": "dates",
+      "outbound": {
+        "label": "Official USAGov Scams and fraud hub",
+        "url": "https://www.usa.gov/scams-and-fraud",
+        "fact": "Public scam/fraud board for when “perfect plan from a stranger” energy shows up. Peer date stories otherwise."
+      }
     }
   ],
   "notifs": [
     {
       "id": "n1",
-      "text": "@winrecap liked your wins take.",
+      "text": "@smallreceipt liked your wins take.",
       "time": "1h",
       "unread": true
     },
     {
       "id": "n2",
-      "text": "@giftscout mentioned you in gifts.",
+      "text": "@gifthonesty mentioned you in gifts.",
       "time": "3h",
       "unread": true
     },
     {
       "id": "n3",
-      "text": "@tacowalk started following you. Dummy follow.",
+      "text": "@lowstakes started following you. Sample follow — not live.",
       "time": "Yesterday",
       "unread": true
     }
@@ -243,33 +337,61 @@
   "threads": [
     {
       "id": "t1",
-      "name": "Gift Scout",
-      "handle": "giftscout",
-      "preview": "Curated or homemade?",
+      "name": "Romance Scam Desk",
+      "handle": "scamdesk",
+      "preview": "Before you treat a “perfect” stranger pitch as romance lore, do you open the public scams board — or only vent in the group chat?",
       "messages": [
         {
           "me": false,
-          "text": "Curated or homemade?"
+          "text": "Before you treat a “perfect” stranger pitch as romance lore, do you open the public scams board — or only vent in the group chat?"
         },
         {
           "me": true,
-          "text": "Curated retailer example this time."
+          "text": "I open USAGov Scams first. Flirt energy and fraud energy get different desks."
+        },
+        {
+          "me": false,
+          "text": "What red flag almost looked like chemistry — and would you tell the room next time?"
         }
       ]
     },
     {
       "id": "t2",
-      "name": "Win Recap",
-      "handle": "winrecap",
-      "preview": "He actually booked it.",
+      "name": "Gift Honesty",
+      "handle": "gifthonesty",
+      "preview": "Gift thread or checkout cart — which is this nest supposed to be?",
       "messages": [
         {
           "me": false,
-          "text": "He actually booked it."
+          "text": "Gift thread or checkout cart — which is this nest supposed to be?"
         },
         {
           "me": true,
-          "text": "Wins nest material."
+          "text": "Peer story + FTC Consumer Advice when money/shopping honesty matters. No affiliate mall cosplay."
+        },
+        {
+          "me": false,
+          "text": "What gift actually landed for you — and what “must-buy” pitch did you ignore?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "name": "Second Try",
+      "handle": "secondtry",
+      "preview": "Low-stakes taco walk or the flop-then-fix — which dates story are you bringing?",
+      "messages": [
+        {
+          "me": false,
+          "text": "Low-stakes taco walk or the flop-then-fix — which dates story are you bringing?"
+        },
+        {
+          "me": true,
+          "text": "Second try beats a polished tip list. One beat is enough."
+        },
+        {
+          "me": false,
+          "text": "What would you teach a friend without inventing a script — and which nest should they post in?"
         }
       ]
     }
@@ -278,15 +400,19 @@
     "kind": "room-brief",
     "title": "Room Brief",
     "kicker": "On boyfriend",
-    "meta": "Preview · noindex",
-    "footer": "Peer stories only. Gift outbound = curated well-known retailers. No therapy/medical claims.",
+    "meta": "Preview · noindex · no GTM",
+    "footer": "Peer stories only. Free boards: USAGov Scams · FTC Consumer Advice. Not therapy. Not a dating funnel.",
     "porch": {
-      "prompt": "What happened at the table?",
+      "prompt": "What happened at the table — and did anything smell like a scam pitch you almost treated as romance lore? Open the Official USAGov Scams and fraud hub (https://www.usa.gov/scams-and-fraud) if the story involves a stranger pitch, money ask, or “too perfect” online vibe. For gift/shopping honesty (not affiliate cosplay), use Official FTC Consumer Advice (https://consumer.ftc.gov/). Then come back: which nest (Wins / Fights / Dates / Gifts / LD / Family / Breakups), one real beat, and one question for the room.",
       "dwellMs": 9000,
       "options": [
-        "A win",
-        "A fight",
-        "A gift idea"
+        "Wins",
+        "Fights",
+        "Dates",
+        "Gifts",
+        "LD",
+        "Family",
+        "Breakups"
       ]
     },
     "outbound": [
@@ -308,7 +434,7 @@
     "fact": {
       "tag": "FACT",
       "headline": "Peer stories only.",
-      "body": "This is a conversation room, not a dating app, not therapy, and not medical advice. Gift outbound = curated well-known retailers (examples labeled curated). Prices, if shown, are illustrative — not live shelf. Sample feed = dress rehearsal. Preview / noindex until GTM lifts. No cold invites from this page."
+      "body": "Peer stories only. Links not media. This is a conversation room, not a dating app, not therapy, and not medical advice. Gift talk is consumer-protection honesty — free boards on the rail (USAGov Scams, FTC Consumer Advice), not an affiliate mall. Sample posts are dress rehearsal, not live volume. Preview / noindex. No GTM. Welcomes iced. No cold invites from this page."
     }
   },
   "nests": [
@@ -317,7 +443,7 @@
       "label": "Wins",
       "parent": null,
       "kind": "topic",
-      "blurb": "The good nights and the receipts.",
+      "blurb": "Good nights and receipts. Ask: what small thing actually landed?",
       "rankings": [],
       "reviews": [
         {
@@ -343,7 +469,7 @@
       "label": "Fights",
       "parent": null,
       "kind": "topic",
-      "blurb": "Argue here, not in the group chat.",
+      "blurb": "Argue here, not the group chat. Ask: tone or content — which was it really?",
       "rankings": [],
       "reviews": [
         {
@@ -369,7 +495,7 @@
       "label": "Breakups",
       "parent": null,
       "kind": "topic",
-      "blurb": "Endings, soft and hard. Peer stories only — not counseling.",
+      "blurb": "Soft and hard endings. Ask: what closed it — and what still needs a sentence? Peer only.",
       "rankings": [],
       "reviews": [
         {
@@ -395,56 +521,49 @@
       "label": "Gifts",
       "parent": null,
       "kind": "topic",
-      "blurb": "Curated buy ideas — outbound to well-known retailers only, labeled curated.",
+      "blurb": "Peer gift stories + consumer honesty. Ask: story or scam-check first? FTC + USAGov boards on the rail.",
       "rankings": [],
       "reviews": [
         {
           "id": "r-gifts-1",
           "subject": "Watch gift that landed",
           "stars": 5,
-          "snippet": "Curated example only — not a product endorsement.",
+          "snippet": "Peer gift story — not a product endorsement.",
           "region": "US"
         },
         {
           "id": "r-gifts-2",
           "subject": "Headphones surprise",
           "stars": 4,
-          "snippet": "Outbound stub.",
+          "snippet": "Peer story. Consumer honesty, not a checkout cart.",
           "region": "US"
         }
       ],
       "railPins": [],
       "outbound": [
         {
-          "tag": "Curated",
-          "label": "curated example",
-          "headline": "Nordstrom (example retailer)",
-          "snippet": "Outbound only — not an affiliate claim.",
-          "url": "https://www.nordstrom.com/"
+          "tag": "Board",
+          "label": "Official · board",
+          "headline": "Official USAGov Scams and fraud hub",
+          "snippet": "Romance and online scams included. Not a dating funnel; not counseling.",
+          "url": "https://www.usa.gov/scams-and-fraud"
         },
         {
-          "tag": "Curated",
-          "label": "curated example",
-          "headline": "Best Buy (example retailer)",
-          "snippet": "Well-known retailer example.",
-          "url": "https://www.bestbuy.com/"
-        },
-        {
-          "tag": "Curated",
-          "label": "curated example",
-          "headline": "Williams Sonoma (example)",
-          "snippet": "Kitchen gift ideas — curated stub.",
-          "url": "https://www.williams-sonoma.com/"
+          "tag": "Board",
+          "label": "Official · board",
+          "headline": "Official FTC Consumer Advice",
+          "snippet": "Free shopping and consumer-protection desk. Not a price feed; not an endorsement.",
+          "url": "https://consumer.ftc.gov/"
         }
       ],
-      "body": "Curated retailer examples (Nordstrom, Best Buy, Amazon, Nike, Williams Sonoma). Always labeled curated. Illustrative prices only — never live shelf claims. Not an affiliate dump."
+      "body": "Peer gift stories plus consumer honesty. Open FTC Consumer Advice before a must-buy thread, and the USAGov scams board when a stranger pitch shows up. Not an affiliate mall. Not a price feed."
     },
     {
       "slug": "dates",
       "label": "Dates",
       "parent": null,
       "kind": "topic",
-      "blurb": "Plans, fails, and second tries.",
+      "blurb": "Plans, fails, second tries. Ask: low-stakes classic or the flop-then-fix?",
       "rankings": [],
       "reviews": [
         {
@@ -470,7 +589,7 @@
       "label": "Long Distance",
       "parent": null,
       "kind": "topic",
-      "blurb": "Time zones, visits, and the wait.",
+      "blurb": "Time zones and visits. Ask: what ritual held — pickup, watch-party, or calendar?",
       "rankings": [],
       "reviews": [
         {
@@ -496,7 +615,7 @@
       "label": "Meeting Family",
       "parent": null,
       "kind": "topic",
-      "blurb": "First dinners and the aftermath.",
+      "blurb": "First dinners and aftermath. Ask: dessert save or sibling grill — what actually helped?",
       "rankings": [],
       "reviews": [
         {
@@ -521,5 +640,5 @@
   "roomNumber": 14,
   "description": "Peer relationship stories — wins, fights, dates, gifts. Warm table talk, not a dating funnel. Not therapy. Preview.",
   "exploreExplainer": "boyfriendchat is a table for high-intensity relationship stories — dating-app energy without the funnel. You bring a win, a fight, a date that flopped, a gift that landed. Peers talk. Nobody here is your therapist, your matchmaker, or your checkout cart.",
-  "trustBlurb": "What boyfriendchat will not do: dating-funnel cosplay, therapy claims, NSFW dump, predatory DMs, or fake gift rankings. Peer stories. Curated retailer examples only. Preview on purpose. Welcomes iced until kill-switch."
+  "trustBlurb": "What boyfriendchat will not do: dating-funnel cosplay, therapy claims, NSFW dump, predatory DMs, or fake gift rankings. Peer stories. Gift talk is consumer-protection honesty, not an affiliate mall. Preview on purpose. No GTM. Welcomes iced until kill-switch."
 }
