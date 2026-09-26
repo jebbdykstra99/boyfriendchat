@@ -640,5 +640,93 @@
   "roomNumber": 14,
   "description": "Peer relationship stories — wins, fights, dates, gifts. Warm table talk, not a dating funnel. Not therapy. Preview.",
   "exploreExplainer": "boyfriendchat is a table for high-intensity relationship stories — dating-app energy without the funnel. You bring a win, a fight, a date that flopped, a gift that landed. Peers talk. Nobody here is your therapist, your matchmaker, or your checkout cart.",
-  "trustBlurb": "What boyfriendchat will not do: dating-funnel cosplay, therapy claims, NSFW dump, predatory DMs, or fake gift rankings. Peer stories. Gift talk is consumer-protection honesty, not an affiliate mall. Preview on purpose. No GTM. Welcomes iced until kill-switch."
+  "trustBlurb": "What boyfriendchat will not do: dating-funnel cosplay, therapy claims, NSFW dump, predatory DMs, or fake gift rankings. Peer stories. Gift talk is consumer-protection honesty, not an affiliate mall. Preview on purpose. No GTM. Welcomes iced until kill-switch.",
+  "taxonomy": {
+    "version": 1,
+    "name": "Warm topics",
+    "symbolPrefix": "$",
+    "topics": [
+      {
+        "id": "dating",
+        "label": "Dating",
+        "kind": "theme",
+        "blurb": "Adult dating talk",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "communication",
+        "label": "Communication",
+        "kind": "theme",
+        "blurb": "How we talk",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "boundaries",
+        "label": "Boundaries",
+        "kind": "theme",
+        "blurb": "Consent & limits",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "long-distance",
+        "label": "Long distance",
+        "kind": "theme",
+        "blurb": "Distance relationships",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "first-dates",
+        "label": "First dates",
+        "kind": "theme",
+        "blurb": "Meeting up",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "breakups",
+        "label": "Breakups",
+        "kind": "theme",
+        "blurb": "Endings with care",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "friendship",
+        "label": "Friendship",
+        "kind": "theme",
+        "blurb": "Platonic care",
+        "followDefault": false,
+        "adminSeed": true,
+        "status": "active"
+      },
+      {
+        "id": "self",
+        "label": "Self-work",
+        "kind": "theme",
+        "blurb": "Showing up better",
+        "followDefault": true,
+        "adminSeed": true,
+        "status": "active"
+      }
+    ],
+    "defaultWatchlist": [
+      "dating",
+      "communication",
+      "boundaries",
+      "self"
+    ],
+    "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
+  },
+  "v": 1,
+  "cacheBust": 1
 }
