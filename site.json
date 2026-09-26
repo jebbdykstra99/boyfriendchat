@@ -441,200 +441,74 @@
     {
       "slug": "wins",
       "label": "Wins",
+      "blurb": "The good nights and the receipts. What small thing actually landed?",
       "parent": null,
-      "kind": "topic",
-      "blurb": "Good nights and receipts. Ask: what small thing actually landed?",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-wins-1",
-          "subject": "Anniversary dinner win",
-          "stars": 5,
-          "snippet": "Story stub — not advice.",
-          "region": "US"
-        },
-        {
-          "id": "r-wins-2",
-          "subject": "Random Tuesday flowers",
-          "stars": 5,
-          "snippet": "Dummy win.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "body": "Good nights, small receipts, the night he locked the reservation without being asked. Story energy — not advice."
+      "kind": "theme",
+      "nav": true
     },
     {
       "slug": "fights",
       "label": "Fights",
+      "blurb": "Argue here, not the group chat. Tone or content — which was it really?",
       "parent": null,
-      "kind": "topic",
-      "blurb": "Argue here, not the group chat. Ask: tone or content — which was it really?",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-fights-1",
-          "subject": "Tone argument recap",
-          "stars": 3,
-          "snippet": "Story stub — no therapy claims.",
-          "region": "US"
-        },
-        {
-          "id": "r-fights-2",
-          "subject": "Logistics fight",
-          "stars": 3,
-          "snippet": "Dummy only.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "body": "Tone vs content, plans that never got locked, phone-at-dinner. Argue in the nest, not the group chat. Peer only."
-    },
-    {
-      "slug": "breakups",
-      "label": "Breakups",
-      "parent": null,
-      "kind": "topic",
-      "blurb": "Soft and hard endings. Ask: what closed it — and what still needs a sentence? Peer only.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-break-1",
-          "subject": "Soft mutual ending",
-          "stars": 4,
-          "snippet": "Peer story stub — not counseling.",
-          "region": "US"
-        },
-        {
-          "id": "r-break-2",
-          "subject": "Hard cut text",
-          "stars": 3,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "body": "Soft fades and hard cuts. Aftermath without counseling cosplay. Leave blank rather than invent closure tips."
-    },
-    {
-      "slug": "gifts",
-      "label": "Gifts",
-      "parent": null,
-      "kind": "topic",
-      "blurb": "Peer gift stories + consumer honesty. Ask: story or scam-check first? FTC + USAGov boards on the rail.",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-gifts-1",
-          "subject": "Watch gift that landed",
-          "stars": 5,
-          "snippet": "Peer gift story — not a product endorsement.",
-          "region": "US"
-        },
-        {
-          "id": "r-gifts-2",
-          "subject": "Headphones surprise",
-          "stars": 4,
-          "snippet": "Peer story. Consumer honesty, not a checkout cart.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "outbound": [
-        {
-          "tag": "Board",
-          "label": "Official · board",
-          "headline": "Official USAGov Scams and fraud hub",
-          "snippet": "Romance and online scams included. Not a dating funnel; not counseling.",
-          "url": "https://www.usa.gov/scams-and-fraud"
-        },
-        {
-          "tag": "Board",
-          "label": "Official · board",
-          "headline": "Official FTC Consumer Advice",
-          "snippet": "Free shopping and consumer-protection desk. Not a price feed; not an endorsement.",
-          "url": "https://consumer.ftc.gov/"
-        }
-      ],
-      "body": "Peer gift stories plus consumer honesty. Open FTC Consumer Advice before a must-buy thread, and the USAGov scams board when a stranger pitch shows up. Not an affiliate mall. Not a price feed."
+      "kind": "theme",
+      "nav": true
     },
     {
       "slug": "dates",
       "label": "Dates",
+      "blurb": "Plans, fails, second tries. Low-stakes classic or the flop-then-fix?",
       "parent": null,
-      "kind": "topic",
-      "blurb": "Plans, fails, second tries. Ask: low-stakes classic or the flop-then-fix?",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-dates-1",
-          "subject": "Taco walk date",
-          "stars": 5,
-          "snippet": "Story stub.",
-          "region": "US"
-        },
-        {
-          "id": "r-dates-2",
-          "subject": "Museum fail then coffee win",
-          "stars": 4,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "body": "Low-stakes taco walks, museum fails, cooking at home. Plans and second tries."
+      "kind": "theme",
+      "nav": true
+    },
+    {
+      "slug": "gifts",
+      "label": "Gifts",
+      "blurb": "Peer gift stories + consumer honesty. Story first; FTC Consumer Advice when money talk matters.",
+      "parent": null,
+      "kind": "theme",
+      "nav": true
     },
     {
       "slug": "long-distance",
       "label": "Long Distance",
+      "blurb": "Time zones and visits. What ritual held — pickup, watch-party, or calendar?",
       "parent": null,
-      "kind": "topic",
-      "blurb": "Time zones and visits. Ask: what ritual held — pickup, watch-party, or calendar?",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-ld-1",
-          "subject": "Airport pickup",
-          "stars": 5,
-          "snippet": "Peer story.",
-          "region": "US"
-        },
-        {
-          "id": "r-ld-2",
-          "subject": "Missed call spiral",
-          "stars": 2,
-          "snippet": "Dummy — not advice.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "body": "Airport pickups, shared watch-parties, calendars that actually sync. Visit lore, not relocation advice."
+      "kind": "theme",
+      "nav": true
     },
     {
       "slug": "meeting-family",
       "label": "Meeting Family",
+      "blurb": "First dinners and aftermath. Dessert save or sibling grill — what helped?",
       "parent": null,
-      "kind": "topic",
-      "blurb": "First dinners and aftermath. Ask: dessert save or sibling grill — what actually helped?",
-      "rankings": [],
-      "reviews": [
-        {
-          "id": "r-fam-1",
-          "subject": "Dessert save",
-          "stars": 5,
-          "snippet": "Story stub.",
-          "region": "US"
-        },
-        {
-          "id": "r-fam-2",
-          "subject": "Sibling grill",
-          "stars": 3,
-          "snippet": "Dummy.",
-          "region": "US"
-        }
-      ],
-      "railPins": [],
-      "body": "Dessert as a safe play, sibling interrogation, the pet that won them over."
+      "kind": "theme",
+      "nav": true
+    },
+    {
+      "slug": "breakups",
+      "label": "Breakups",
+      "blurb": "Soft and hard endings. What closed it — and what still needs a sentence? Peer only.",
+      "parent": null,
+      "kind": "theme",
+      "nav": true
+    },
+    {
+      "slug": "milestones",
+      "label": "Milestones",
+      "blurb": "The “official” talk, anniversaries, keys exchanged. One lived beat — not a checklist sermon.",
+      "parent": null,
+      "kind": "theme",
+      "nav": true
+    },
+    {
+      "slug": "online-dating",
+      "label": "Online Dating",
+      "blurb": "How the app night became a table story (or didn’t). Red flags welcome; predatory energy is not. Scams board on the rail when stranger-pitch vibes show up.",
+      "parent": null,
+      "kind": "theme",
+      "nav": true
     }
   ],
   "roomNumber": 14,
