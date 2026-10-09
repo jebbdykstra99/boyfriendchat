@@ -406,6 +406,7 @@
       input.setAttribute('data-ph', site.composePlaceholder);
     }
     applyRailChrome();
+    applyAgeGateLabels();
   }
 
   function railCfg() {
@@ -3508,6 +3509,30 @@
       '.conv-google-btn{margin-bottom:0.2rem;}';
     document.head.appendChild(st);
   }
+  // ===== PREVIEW-LIFT (age) =====
+  function previewMinAge() {
+    var raw = site && site.minAge;
+    var n;
+    if (typeof raw === 'number') n = raw;
+    else if (typeof raw === 'string' && /^\d+$/.test(raw)) n = parseInt(raw, 10);
+    else n = NaN;
+    if (!isFinite(n) || n < 1 || Math.floor(n) !== n) return 13;
+    return n;
+  }
+  function ageConfirmText() {
+    return 'Confirm you are ' + previewMinAge() + ' or older and agree to the preview Terms and Privacy pages.';
+  }
+  function applyAgeGateLabels() {
+    var phrase = 'I am ' + previewMinAge() + ' or older';
+    ['cv-google-age', 'cv-reg-age'].forEach(function (id) {
+      var box = document.getElementById(id);
+      var label = box && box.closest ? box.closest('label') : null;
+      var span = label && label.querySelector('span');
+      if (!span || !span.firstChild || span.firstChild.nodeType !== 3) return;
+      span.firstChild.nodeValue = span.firstChild.nodeValue.replace(/I am \d+ or older/, phrase);
+    });
+  }
+  // ===== /PREVIEW-LIFT (age) =====
   function ageCheckLabel() {
     var box = document.getElementById('cv-google-age');
     if (!box) return null;
@@ -4353,7 +4378,7 @@
       const age = document.getElementById('cv-reg-age');
       if (!fbAuth) { err.textContent = 'Auth is not ready.'; err.classList.add('show'); return; }
       if (!age || !age.checked) {
-        err.textContent = 'Confirm you are 13 or older and agree to the preview Terms and Privacy pages.';
+        err.textContent = ageConfirmText();
         err.classList.add('show');
         return;
       }
@@ -4384,7 +4409,7 @@
       if (!fbAuth) { err.textContent = 'Auth is not ready.'; err.classList.add('show'); return; }
       var age = document.getElementById('cv-google-age');
       if (!age || !age.checked) {
-        err.textContent = 'Confirm you are 13 or older and agree to the preview Terms and Privacy pages.';
+        err.textContent = ageConfirmText();
         err.classList.add('show');
         return;
       }
