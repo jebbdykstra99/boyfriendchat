@@ -8,6 +8,7 @@
   "earlyWelcome": false,
   "dms": true,
   "preview": true,
+  "minAge": 18,
   "robots": "noindex,nofollow",
   "emptyState": "Preview room — noindex. No GTM. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift talk is consumer-protection honesty, not an affiliate mall.",
   "theme": {
