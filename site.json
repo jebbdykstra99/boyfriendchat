@@ -1,6 +1,5 @@
 {
   "siteId": "boyfriend",
-  "redditSr": "boyfriendchat",
   "name": "boyfriendchat",
   "domain": "boyfriendchat.com",
   "tagline": "His stories. Your table.",
@@ -602,5 +601,17 @@
     "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
   },
   "v": 1,
-  "cacheBust": 1
+  "cacheBust": 1,
+  "redditCrosspost": false,
+  "features": {
+    "following": true,
+    "notifs": true
+  },
+  "skin": {
+    "avatarInitials": "BF",
+    "bioDefault": "Visiting the table.",
+    "exploreEmpty": "Nothing at the table matched that.",
+    "profileEmpty": "No posts yet. Hit Post when something happened at the table.",
+    "seatTag": "Seat"
+  }
 }
