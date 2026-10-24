@@ -80,7 +80,7 @@
     {
       "tag": "Seat",
       "title": "Fights",
-      "snippet": "Argue here, not the group chat. Ask: tone or content, which was it really?"
+      "snippet": "Argue here, not the group chat. Ask: tone or content? Which was it really?"
     },
     {
       "tag": "Seat",
@@ -105,7 +105,7 @@
     {
       "tag": "Seat",
       "title": "Meeting Family",
-      "snippet": "First dinners and aftermath. Ask: dessert save or sibling grill, what actually helped?"
+      "snippet": "First dinners and aftermath. Ask: dessert save or sibling grill? What actually helped?"
     }
   ],
   "topics": [
@@ -236,7 +236,7 @@
     {
       "slug": "meeting-family",
       "label": "Meeting Family",
-      "blurb": "First dinners and aftermath. Dessert save or sibling grill, what helped?",
+      "blurb": "First dinners and aftermath. Dessert save or sibling grill: what helped?",
       "parent": null,
       "kind": "theme",
       "nav": true
