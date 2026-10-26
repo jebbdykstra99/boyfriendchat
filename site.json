@@ -8,7 +8,7 @@
   "dms": true,
   "preview": true,
   "robots": "noindex,nofollow",
-  "emptyState": "Preview room — noindex. No GTM. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift talk is consumer-protection honesty, not an affiliate mall.",
+  "emptyState": "Preview room: noindex. No GTM. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift talk is consumer-protection honesty, not an affiliate mall.",
   "theme": {
     "bg": "#1a1014",
     "surface": "#241820",
@@ -37,7 +37,7 @@
     {
       "tag": "Wins",
       "headline": "He remembered the small thing",
-      "snippet": "Story energy — not a funnel.",
+      "snippet": "Story energy, not a funnel.",
       "meta": "Nest: wins"
     },
     {
@@ -55,7 +55,7 @@
     {
       "tag": "Fights",
       "headline": "Tone vs content, again",
-      "snippet": "Peer stories — no therapy claims.",
+      "snippet": "Peer stories, no therapy claims.",
       "meta": "Nest: fights"
     },
     {
@@ -80,12 +80,12 @@
     {
       "tag": "Seat",
       "title": "Fights",
-      "snippet": "Argue here, not the group chat. Ask: tone or content — which was it really?"
+      "snippet": "Argue here, not the group chat. Ask: tone or content? Which was it really?"
     },
     {
       "tag": "Seat",
       "title": "Breakups",
-      "snippet": "Soft and hard endings. Ask: what closed it — and what still needs a sentence? Peer only."
+      "snippet": "Soft and hard endings. Ask: what closed it, and what still needs a sentence? Peer only."
     },
     {
       "tag": "Seat",
@@ -100,19 +100,19 @@
     {
       "tag": "Seat",
       "title": "Long Distance",
-      "snippet": "Time zones and visits. Ask: what ritual held — pickup, watch-party, or calendar?"
+      "snippet": "Time zones and visits. Ask: what ritual held? Pickup, watch-party, or calendar?"
     },
     {
       "tag": "Seat",
       "title": "Meeting Family",
-      "snippet": "First dinners and aftermath. Ask: dessert save or sibling grill — what actually helped?"
+      "snippet": "First dinners and aftermath. Ask: dessert save or sibling grill? What actually helped?"
     }
   ],
   "topics": [
     {
       "tag": "Wins",
       "title": "Wins",
-      "snippet": "Good nights, small receipts, the night he locked the reservation without being asked. Story energy — not advice."
+      "snippet": "Good nights, small receipts, the night he locked the reservation without being asked. Story energy, not advice."
     },
     {
       "tag": "Fights",
@@ -150,7 +150,7 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample — not mixed into the live feed; not a live volume claim",
+  "seedNote": "sample, not mixed into the live feed; not a live volume claim",
   "rail": {
     "kind": "room-brief",
     "title": "Room Brief",
@@ -158,7 +158,7 @@
     "meta": "Preview · noindex · no GTM",
     "footer": "Peer stories only. Free boards: USAGov Scams · FTC Consumer Advice. Not therapy. Not a dating funnel.",
     "porch": {
-      "prompt": "What happened at the table — and did anything smell like a scam pitch you almost treated as romance lore? Open the Official USAGov Scams and fraud hub (https://www.usa.gov/scams-and-fraud) if the story involves a stranger pitch, money ask, or “too perfect” online vibe. For gift/shopping honesty (not affiliate cosplay), use Official FTC Consumer Advice (https://consumer.ftc.gov/). Then come back: which nest (Wins / Fights / Dates / Gifts / LD / Family / Breakups), one real beat, and one question for the room.",
+      "prompt": "What happened at the table, and did anything smell like a scam pitch you almost treated as romance lore? Open the Official USAGov Scams and fraud hub (https://www.usa.gov/scams-and-fraud) if the story involves a stranger pitch, money ask, or “too perfect” online vibe. For gift/shopping honesty (not affiliate cosplay), use Official FTC Consumer Advice (https://consumer.ftc.gov/). Then come back: which nest (Wins / Fights / Dates / Gifts / LD / Family / Breakups), one real beat, and one question for the room.",
       "dwellMs": 9000,
       "options": [
         "Wins",
@@ -189,7 +189,7 @@
     "fact": {
       "tag": "FACT",
       "headline": "Peer stories only.",
-      "body": "Peer stories only. Links not media. This is a conversation room, not a dating app, not therapy, and not medical advice. Gift talk is consumer-protection honesty — free boards on the rail (USAGov Scams, FTC Consumer Advice), not an affiliate mall. Sample posts are dress rehearsal, not live volume. Preview / noindex. No GTM. Welcomes iced. No cold invites from this page."
+      "body": "Peer stories only. Links not media. This is a conversation room, not a dating app, not therapy, and not medical advice. Gift talk is consumer-protection honesty: free boards on the rail (USAGov Scams, FTC Consumer Advice), not an affiliate mall. Sample posts are dress rehearsal, not live volume. Preview / noindex. No GTM. Welcomes iced. No cold invites from this page."
     }
   },
   "nests": [
@@ -204,7 +204,7 @@
     {
       "slug": "fights",
       "label": "Fights",
-      "blurb": "Argue here, not the group chat. Tone or content — which was it really?",
+      "blurb": "Argue here, not the group chat. Tone or content: which was it really?",
       "parent": null,
       "kind": "theme",
       "nav": true
@@ -228,7 +228,7 @@
     {
       "slug": "long-distance",
       "label": "Long Distance",
-      "blurb": "Time zones and visits. What ritual held — pickup, watch-party, or calendar?",
+      "blurb": "Time zones and visits. What ritual held: pickup, watch-party, or calendar?",
       "parent": null,
       "kind": "theme",
       "nav": true
@@ -236,7 +236,7 @@
     {
       "slug": "meeting-family",
       "label": "Meeting Family",
-      "blurb": "First dinners and aftermath. Dessert save or sibling grill — what helped?",
+      "blurb": "First dinners and aftermath. Dessert save or sibling grill: what helped?",
       "parent": null,
       "kind": "theme",
       "nav": true
@@ -244,7 +244,7 @@
     {
       "slug": "breakups",
       "label": "Breakups",
-      "blurb": "Soft and hard endings. What closed it — and what still needs a sentence? Peer only.",
+      "blurb": "Soft and hard endings. What closed it, and what still needs a sentence? Peer only.",
       "parent": null,
       "kind": "theme",
       "nav": true
@@ -252,7 +252,7 @@
     {
       "slug": "milestones",
       "label": "Milestones",
-      "blurb": "The “official” talk, anniversaries, keys exchanged. One lived beat — not a checklist sermon.",
+      "blurb": "The “official” talk, anniversaries, keys exchanged. One lived beat, not a checklist sermon.",
       "parent": null,
       "kind": "theme",
       "nav": true
@@ -267,8 +267,8 @@
     }
   ],
   "roomNumber": 14,
-  "description": "Peer relationship stories — wins, fights, dates, gifts. Warm table talk, not a dating funnel. Not therapy. Preview.",
-  "exploreExplainer": "boyfriendchat is a table for high-intensity relationship stories — dating-app energy without the funnel. You bring a win, a fight, a date that flopped, a gift that landed. Peers talk. Nobody here is your therapist, your matchmaker, or your checkout cart.",
+  "description": "Peer relationship stories: wins, fights, dates, gifts. Warm table talk, not a dating funnel. Not therapy. Preview.",
+  "exploreExplainer": "boyfriendchat is a table for high-intensity relationship stories: dating-app energy without the funnel. You bring a win, a fight, a date that flopped, a gift that landed. Peers talk. Nobody here is your therapist, your matchmaker, or your checkout cart.",
   "trustBlurb": "What boyfriendchat will not do: dating-funnel cosplay, therapy claims, NSFW dump, predatory DMs, or fake gift rankings. Peer stories. Gift talk is consumer-protection honesty, not an affiliate mall. Preview on purpose. No GTM. Welcomes iced until kill-switch.",
   "taxonomy": {
     "version": 1,
