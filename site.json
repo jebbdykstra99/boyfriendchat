@@ -370,5 +370,6 @@
     "profileEmpty": "No posts yet. Hit Post when something happened at the table.",
     "seatTag": "Seat"
   },
-  "minAge": 18
+  "minAge": 18,
+  "accountsOpen": true
 }
