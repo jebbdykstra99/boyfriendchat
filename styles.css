@@ -1,20 +1,20 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:          #1a1014;
-  --surface:          #241820;
+  --bg:          #ffffff;
+  --surface:          #f7f9f9;
   --nav-bg:          #0e080c;
   --nav-text:     #c4a0b0;
   --nav-hover:     #f5e0ea;
   --nav-active:     #f5e0ea;
-  --text:          #f5e0ea;
-  --text-muted:     #c4a0b0;
-  --text-light:     #8a6878;
-  --accent:          #e85a7a;
-  --accent-dark:     #c43d5c;
+  --text:          #0f1419;
+  --text-muted:     #536471;
+  --text-light:     #536471;
+  --accent:          #de1f4a;
+  --accent-dark:     #ba1a3e;
   --teal:          #7a5c8a;
-  --silver:          #d4b8c4;
-  --border:          #3a2830;
+  --silver:          #cfd9de;
+  --border:          #eff3f4;
   --nav-w:          275px;
   --right-w:          330px;
   --ui:          Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -166,7 +166,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: #e85a7a;
   border: 1px solid rgba(232,160,112,0.45);
   border-radius: 999px;
   padding: 0.08rem 0.4rem;
@@ -227,7 +227,7 @@ body {
 .right-panel-kicker {
   font-size: 0.7rem; font-weight: 700;
   letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--accent); margin-bottom: 0.4rem;
+  color: #e85a7a; margin-bottom: 0.4rem;
 }
 .right-panel-title {
   font-family: var(--display);
@@ -526,7 +526,7 @@ body.right-collapsed .right-panel-tab svg { transform: scaleX(1); }
 .post-image {
   margin-top: 0.7rem;
   border-radius: 10px; overflow: hidden;
-  border: 1px solid var(--border);
+  border: 1px solid var(--silver);
 }
 .post-image img {
   width: 100%; max-height: 420px; object-fit: contain;
