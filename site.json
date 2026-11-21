@@ -6,9 +6,9 @@
   "composePlaceholder": "What happened at the table?",
   "earlyWelcome": false,
   "dms": true,
-  "preview": true,
-  "robots": "noindex,nofollow",
-  "emptyState": "Preview room: noindex. No GTM. Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift talk is consumer-protection honesty, not an affiliate mall.",
+  "preview": false,
+  "robots": "index,follow",
+  "emptyState": "Sign in to share a story. Guest can browse only. Not therapy or medical advice. Gift talk is consumer-protection honesty, not an affiliate mall.",
   "theme": {
     "bg": "#ffffff",
     "surface": "#f7f9f9",
@@ -188,7 +188,7 @@
     "kind": "room-brief",
     "title": "Room Brief",
     "kicker": "On boyfriend",
-    "meta": "Preview · noindex · no GTM",
+    "meta": "Public beta",
     "footer": "Peer stories only. Free boards: USAGov Scams · FTC Consumer Advice. Not therapy. Not a dating funnel.",
     "porch": {
       "prompt": "What happened at the table, and did anything smell like a scam pitch you almost treated as romance lore? Open the Official USAGov Scams and fraud hub (https://www.usa.gov/scams-and-fraud) if the story involves a stranger pitch, money ask, or “too perfect” online vibe. For gift/shopping honesty (not affiliate cosplay), use Official FTC Consumer Advice (https://consumer.ftc.gov/). Then come back: which nest (Wins / Fights / Dates / Gifts / LD / Family / Breakups), one real beat, and one question for the room.",
@@ -222,7 +222,7 @@
     "fact": {
       "tag": "FACT",
       "headline": "Peer stories only.",
-      "body": "Peer stories only. Links not media. This is a conversation room, not a dating app, not therapy, and not medical advice. Gift talk is consumer-protection honesty: free boards on the rail (USAGov Scams, FTC Consumer Advice), not an affiliate mall. Sample posts are dress rehearsal, not live volume. Preview / noindex. No GTM. Welcomes iced. No cold invites from this page."
+      "body": "Peer stories only. Links not media. This is a conversation room, not a dating app, not therapy, and not medical advice. Gift talk is consumer-protection honesty: free boards on the rail (USAGov Scams, FTC Consumer Advice), not an affiliate mall. Sample posts are dress rehearsal, not live volume. Welcomes iced. No cold invites from this page."
     }
   },
   "nests": [
@@ -300,9 +300,9 @@
     }
   ],
   "roomNumber": 14,
-  "description": "Peer relationship stories: wins, fights, dates, gifts. Warm table talk, not a dating funnel. Not therapy. Preview.",
+  "description": "Peer relationship stories: wins, fights, dates, gifts. Warm table talk, not a dating funnel. Not therapy. Beta.",
   "exploreExplainer": "boyfriendchat is a table for high-intensity relationship stories: dating-app energy without the funnel. You bring a win, a fight, a date that flopped, a gift that landed. Peers talk. Nobody here is your therapist, your matchmaker, or your checkout cart.",
-  "trustBlurb": "What boyfriendchat will not do: dating-funnel cosplay, therapy claims, NSFW dump, predatory DMs, or fake gift rankings. Peer stories. Gift talk is consumer-protection honesty, not an affiliate mall. Preview on purpose. No GTM. Welcomes iced until kill-switch.",
+  "trustBlurb": "What boyfriendchat will not do: dating-funnel cosplay, therapy claims, NSFW dump, predatory DMs, or fake gift rankings. Peer stories. Gift talk is consumer-protection honesty, not an affiliate mall. Welcomes iced until kill-switch.",
   "taxonomy": {
     "version": 1,
     "name": "Warm topics",
