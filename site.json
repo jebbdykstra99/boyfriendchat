@@ -146,7 +146,7 @@
     }
   ],
   "stories": {
-    "enabled": true,
+    "enabled": false,
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
@@ -404,5 +404,6 @@
     "seatTag": "Seat"
   },
   "minAge": 18,
+  "imageUploads": false,
   "accountsOpen": true
 }
